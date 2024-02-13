@@ -134,7 +134,7 @@ def linInterp(x1,y1,y2,z1,z2):
 
 # air = isentropic(1.4)
 # air.M(0.2)
-# air.static(1,1,273)
+# air.getStag(1,1,273)
 # print(air.P0,air.T0)
 
 # flow = rayleigh(1.4)
@@ -162,7 +162,7 @@ def linInterp(x1,y1,y2,z1,z2):
 # print("Temperature Ratio",air.Tratio)
 # print()
 
-# air.static(101000,1.4077,250)
+# air.getStag(101000,1.4077,250)
 
 # print("Stagnation Pressure",air.P0/1000,"kPa")
 # print("Stagnation Density",air.rho0,"kg/m^3")
